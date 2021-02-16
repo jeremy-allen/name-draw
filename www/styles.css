@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mr+De+Haviland&display=swap');
+
+body {
+  position: relative;
+  background: #f9f2eb;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color: #a68c59;
+}
+
+h3 {
+  font-size: 8em;
+}
+
+h4 {
+  color: #f9f2eb;
+  font-size: 8em;
+}
+
+a {
+  color: #444448;
+  text-decoration: none;
+}
+
+img {
+  border: 0;
+}
+
+.flex-outer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-height: 100%;
+  min-width: 100%;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 85%;
+  min-width: 100%;
+}
+
+.winner {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-family: 'Mr De Haviland', cursive;
+  z-index: 999;
+}
+
+.tree {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.shiny-bound-output {
+  background: #f9f2eb;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.btn, .btn-default,
+.btn:visited, .btn-default:visited {
+  color: #33590d;
+  background-color: #afc9cf;
+  border-color: #33590d;
+}
+
+.btn:hover, .btn-default:hover {
+  background-color: #fcc348;
+}
+
+.plot-intro {
+  padding-top: 2em;
+  display: flex;
+  justify-content: center;
+  min-width: 25%;
+  max-width: 50%;
+  font-family: 'Lato', sans-serif;
+  font-weight: 800;
+}
+
+.plot {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  min-width: 50%;
+  max-width: 70%;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+.movie-title {
+  padding-top: 5px;
+  display: flex;
+  justify-content: center;
+  min-width: 50%;
+  max-width: 70%;
+  font-family: 'Lato', sans-serif;
+  font-weight: 800;
+}
